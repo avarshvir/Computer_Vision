@@ -8,7 +8,7 @@ if(cap.isOpened() == False):
 # writing format, codec, video writer object and file output
 frame_width = int(cap.get(3))
 frame_height = int(cap.get(4))
-out = cv2.VideoWriter("../resources/videos/video2.avi",cv2.VideoWriter_fourcc('M','J','P','G'),10,(frame_width,frame_height))
+out = cv2.VideoWriter("../resources/newly_write/video2.avi",cv2.VideoWriter_fourcc('M','J','P','G'),10,(frame_width,frame_height))
 
 while(cap.isOpened()):
     ret, frame = cap.read()
