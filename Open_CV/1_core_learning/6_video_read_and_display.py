@@ -1,7 +1,7 @@
 import cv2
 
-#ap = cv2.VideoCapture("../resources/videos/video1.mp4")
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture("../resources/videos/video1.mp4")
+#cap = cv2.VideoCapture(0)
 
 if(cap.isOpened() == False):
     print("Error in playing video.")
