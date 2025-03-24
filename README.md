@@ -10,3 +10,9 @@
 - Object Detection
 - Facial Recognition
 - Real Time Object Detection and Tracking
+
+### Libraries and Frameworks
+- OpenCV
+- MediaPipe
+- YOLO
+- API's
