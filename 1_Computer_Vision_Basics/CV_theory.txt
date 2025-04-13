@@ -1,0 +1,2 @@
+What is Computer Vision?
+-> CV is a field of AI.
