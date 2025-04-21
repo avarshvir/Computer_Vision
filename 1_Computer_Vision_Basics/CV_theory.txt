@@ -1,2 +1,11 @@
 What is Computer Vision?
--> CV is a field of AI.
+-> CV is a field of AI, which enable computer to see, interpret and understand the physical world. with CV,
+   computer can learn to identify, recognize, and pinpoint the position of object.
+
+What are Image?
+-> Images are numpy arise. Images are made by pixels. 
+
+
+What are Pixels?
+-> Pixel value range from 0 to 255. In binary images pixel value is in [0,1] (or [0,255]).
+   In 16 bits images pixel value range from 0 to 65535.
