@@ -1,3 +1,12 @@
+"""
+Other Borders
+cv2.BORDER_REPLICATE     # Repeat edge pixels
+cv2.BORDER_REFLECT       # Mirror the border (with edge pixel repeated)
+cv2.BORDER_REFLECT_101   # Mirror without repeating the edge pixel
+cv2.BORDER_WRAP          # Wrap around the image
+"""
+
+
 import cv2
 
 # path 
