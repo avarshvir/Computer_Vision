@@ -1,3 +1,22 @@
+"""
+img.shape[:2] extracts the height (h) and width (w) of the image.
+center calculates the center point of the image around which the rotation will occur.
+---------------------------------------------------------------------
+cv2.getRotationMatrix2D(center, angle, scale) Explained:
+center: Tuple (x, y) — point around which rotation happens.
+angle: Angle in degrees, positive values mean counter-clockwise rotation.
+scale: Zoom factor during rotation.
+1.0 → keeps size unchanged
+>1.0 → zooms in
+<1.0 → zooms out
+-----------------------------------------------------------------------
+cv2.warpAffine(image, M, dsize) Explained:
+image: The original image.
+M: The transformation matrix (from getRotationMatrix2D).
+dsize: The output image size — here it's (w, h) (same size as input).
+
+"""
+
 import cv2
 
 img_path = '../resources/images/image2000.png'
