@@ -1,0 +1,17 @@
+-> color spacing
+cvtColor(cv2.COLOR_BGR2RGB) and its related
+
+-> combining images
+using arithmetic operations
+
+-> bluring images
+using gaussian, median, bilateral images
+
+-> Gray Scale images
+-> BW images
+
+-> Edge images
+Canny,
+Sobel -> Pencil art
+
+-> resizing images
